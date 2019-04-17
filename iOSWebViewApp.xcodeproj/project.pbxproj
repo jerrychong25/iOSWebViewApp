@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34B40A9E2266CFED009F91EC /* iOSWebViewTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWebViewTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B40A9E2266CFED009F91EC /* iOSWebViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWebViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B40AA12266CFED009F91EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34B40AA32266CFED009F91EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34B40AA62266CFED009F91EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		34B40A952266CFED009F91EC = {
 			isa = PBXGroup;
 			children = (
-				34B40AA02266CFED009F91EC /* iOSWebViewTutorial */,
+				34B40AA02266CFED009F91EC /* iOSWebViewApp */,
 				34B40A9F2266CFED009F91EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		34B40A9F2266CFED009F91EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34B40A9E2266CFED009F91EC /* iOSWebViewTutorial.app */,
+				34B40A9E2266CFED009F91EC /* iOSWebViewApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34B40AA02266CFED009F91EC /* iOSWebViewTutorial */ = {
+		34B40AA02266CFED009F91EC /* iOSWebViewApp */ = {
 			isa = PBXGroup;
 			children = (
 				34B40AA12266CFED009F91EC /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				34B40AAA2266CFEF009F91EC /* LaunchScreen.storyboard */,
 				34B40AAD2266CFEF009F91EC /* Info.plist */,
 			);
-			path = iOSWebViewTutorial;
+			path = iOSWebViewApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		34B40A9D2266CFED009F91EC /* iOSWebViewTutorial */ = {
+		34B40A9D2266CFED009F91EC /* iOSWebViewApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34B40AB02266CFEF009F91EC /* Build configuration list for PBXNativeTarget "iOSWebViewTutorial" */;
+			buildConfigurationList = 34B40AB02266CFEF009F91EC /* Build configuration list for PBXNativeTarget "iOSWebViewApp" */;
 			buildPhases = (
 				34B40A9A2266CFED009F91EC /* Sources */,
 				34B40A9B2266CFED009F91EC /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = iOSWebViewTutorial;
+			name = iOSWebViewApp;
 			productName = iOSWebViewTutorial;
-			productReference = 34B40A9E2266CFED009F91EC /* iOSWebViewTutorial.app */;
+			productReference = 34B40A9E2266CFED009F91EC /* iOSWebViewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 34B40A992266CFED009F91EC /* Build configuration list for PBXProject "iOSWebViewTutorial" */;
+			buildConfigurationList = 34B40A992266CFED009F91EC /* Build configuration list for PBXProject "iOSWebViewApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34B40A9D2266CFED009F91EC /* iOSWebViewTutorial */,
+				34B40A9D2266CFED009F91EC /* iOSWebViewApp */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +283,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSWebViewTutorial/Info.plist;
+				INFOPLIST_FILE = iOSWebViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.explosoft.iOSWebViewTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.explosoft.iOSWebViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +300,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSWebViewTutorial/Info.plist;
+				INFOPLIST_FILE = iOSWebViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.explosoft.iOSWebViewTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.explosoft.iOSWebViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34B40A992266CFED009F91EC /* Build configuration list for PBXProject "iOSWebViewTutorial" */ = {
+		34B40A992266CFED009F91EC /* Build configuration list for PBXProject "iOSWebViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34B40AAE2266CFEF009F91EC /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34B40AB02266CFEF009F91EC /* Build configuration list for PBXNativeTarget "iOSWebViewTutorial" */ = {
+		34B40AB02266CFEF009F91EC /* Build configuration list for PBXNativeTarget "iOSWebViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34B40AB12266CFEF009F91EC /* Debug */,
